@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 20px;
+  height: 350px;
+  width: 100px;
+  gap: 30px;
+  border: 2px solid gold;
+  border-radius: 10px;
+
+  /* justify-content: center;
+  align-items: center; */
+
+  .red {
+    background-color: red;
+    height: 100%;
+    border-radius: 100%;
+  }
+  .yellow {
+    background-color: yellow;
+    height: 100%;
+    border-radius: 100%;
+  }
+  .green {
+    background-color: green;
+    height: 100%;
+    border-radius: 100%;
+  }
+}
